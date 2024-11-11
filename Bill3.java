@@ -8,9 +8,9 @@ public class Bill3 {
 	   String name3= args[2];
 	   int totalBill= Integer.parseInt(args[3]);
 	   double share= totalBill/3.0;
-	   double shareroundup= Math.ceil(share);
+	   double sharerounded= Math.ceil(share);
 
-	   System.out.println("Dear" + " " + name1 + "," + " " + name2 + "," + " " + "and" + " " + name3 + ":" + " " + "pay" + " " + shareroundup + " " + "Shekels" + " " + "each");
+	   System.out.println("Dear" + " " + name1 + "," + " " + name2 + "," + " " + "and" + " " + name3 + ":" + " " + "pay" + " " + sharerounded + " " + "Shekels" + " " + "each");
 	    // Replace this comment with the rest of your code   
 }
 }
