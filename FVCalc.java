@@ -8,7 +8,7 @@ int n = Integer.parseInt(args[2]);
 
 double futurevalue = initial * Math.pow(1+interest,n);
 
-System.out.println("After " + n + " years, $" + initial + " saved at "+ (interest*100)+ "% will yield $"+(int)futurevalue);
+System.out.println("After " + n + " years, a $" + initial + " saved at "+ (interest*100)+ "% will yield $"+(int)futurevalue);
 
 	}
 }
