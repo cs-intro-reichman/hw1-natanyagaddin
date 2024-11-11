@@ -10,7 +10,7 @@ public class Bill3 {
 	   double share= totalBill/3.0;
 	   double sharerounded= Math.ceil(share);
 
-	   System.out.println("Dear" + " " + name1 + "," + " " + name2 + "," + " " + "and" + " " + name3 + ":" + " " + "pay" + " " + sharerounded + " " + "Shekels" + " " + "each");
+	   System.out.println("Dear" + " " + name3 + "," + " " + name2 + "," + " " + "and" + " " + name1 + ":" + " " + "pay" + " " + sharerounded + " " + "Shekels" + " " + "each");
 	    // Replace this comment with the rest of your code   
 }
 }
