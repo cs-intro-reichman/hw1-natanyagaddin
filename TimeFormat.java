@@ -9,12 +9,11 @@ public class TimeFormat {
 		String period = (hours < 12) ? "AM" : "PM"; // test
 		
 		if (hours == 0) {
-			hours = 00; 
+			hours = 0; 
 		} else if (hours > 12) {
 			hours -= 12; }
 		
 		String formattedMinutes = String.format("%02d", minutes);
-		String formattedHours = String.format("%02d", hours); 
-		System.out.println(formattedHours + ":" + formattedMinutes + " " + period);
+		System.out.println(hours + ":" + formattedMinutes + " " + period);
 	}
 }
